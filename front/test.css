@@ -1,0 +1,147 @@
+/* Pour réaliser ce CSS utilisation de google recherche -webkit-box et inspection élément du site web kazaden.com */ 
+
+
+
+body{
+    background-color: #f5f5f5 !important;
+}
+
+
+/* menu en haut permet de tout mettre sur la même ligne */ 
+.custom-breadcrumb li {
+    display: inline;
+    color: #a1a1a1;
+}
+
+/* enleve le trait du a et change sa couleur */ 
+.custom-breadcrumb li a {
+    text-decoration: none;
+    color: #a1a1a1;
+}
+
+/* modification titre h1*/ 
+.top-zone .activity-baseline h1 {
+    font-size: 24px;
+    color: #0e3c56;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+
+/* Changement du fond de la partie droite  et espace autour du carré blanc */ 
+.sub-zone-background-white {
+    background: #FFFFFF;
+}
+.activity-infos-details{
+    padding: 5%;
+}
+
+
+
+/* mise en forme du bouton disponibilité */ 
+span#printed-price{
+color: #ffae3b;
+font-size: 24px;
+margin-left: 8px;
+margin-right: 8px;
+}
+
+/* permet de mettre sur la même ligne "A partir de3 090 € /personne" */ 
+.activity-price{
+    display: -webkit-box;
+    -webkit-box-align: center;
+}
+
+/* desgin bouton stage */ 
+.tags-list .tag-button {
+    padding: 0px 5px;
+    height: 22px;
+    margin-top: 3px;
+    display: inline-block;
+    font-size: 13px;
+}
+
+.tag-button {
+    background: #a1a1a1;
+    border-radius: 5px;
+    color: #FFFFFF;
+    line-height: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+/* design bouton dispo */ 
+
+.custom-button.solid-yellow {
+    background: #ffae3b;
+    border: solid 1px #cfcfcf;
+    border-color: #ffae3b;
+    color: white;
+}
+
+/* design btn info */ 
+.activity-infos .activity-infos-details .activity-question-link {
+    margin-top: 15px;
+    text-transform: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px 10px;
+    font-size: 13px;
+    color: #7d7873;
+    background-color: white;
+    border-color: #7d7873;
+}
+/*  btn à la même taille */ 
+.custom-button.stretch-width {
+    width: 100%;
+}
+
+/* design numero */ 
+.activity-help-tel-zone .help-tel {
+    color: #ffae3b;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+/* design text */ 
+.activity-help-tel-zone .help-label{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* design du text en bas de page, tout ce mets sur la même ligne */  
+
+.activity-card-zone .short-desc-zone {
+    margin-top: 8px;
+    background: white;
+    display: flex;
+    height: 40px;
+
+}
+
+.short-desc-zone .short-desc-label{
+    background: #0e3c56;
+    font-weight: 700;
+    align-items: center;
+    padding: 5px 15px;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    -webkit-box-align: center;
+}
+
+.short-desc-text h2 {
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 9px; 
+}
+
+ .short-desc-text {
+    padding: 0px 15px;
+    display: flex;
+    -webkit-box-align: center;
+
+}    
